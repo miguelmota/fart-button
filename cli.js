@@ -1,1 +1,1 @@
-require('./index').start()
+require('./button').start()

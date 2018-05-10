@@ -1,22 +1,44 @@
 {
   "name": "fart-button",
-  "version": "0.0.3",
-  "description": "<Description>",
+  "version": "0.0.4",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/fart-button"
+  },
+  "keywords": [
+    "fart",
+    "sounds",
+    "player",
+    "big",
+    "red",
+    "button",
+    "hid",
+    "usb"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/fart-button/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/fart-button/issues"
+  },
+  "homepage": "https://github.com/miguelmota/fart-button",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6.11"
+  },
   "bin": {
     "fart-button": "bin/fart-button"
-  },
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
-  "license": "MIT",
-  "dependencies": {
-    "big-red-button": "0.0.9",
-    "lodash": "^2.4.1",
-    "q": "^1.0.1",
-    "request": "^2.45.0",
-    "terminal-tab": "0.0.4"
   }
 }
