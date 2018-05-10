@@ -1,6 +1,6 @@
-# Big Red Button Demo
+# fart-button
 
-Plays a fart sound and opens a new tab with the steam locomotive (`sl`) train.
+> Plays a fart sound
 
 Fart sounds from [http://www.soundjay.com/fart-sound-effect.html](http://www.soundjay.com/fart-sound-effect.html)
 
