@@ -1,0 +1,19 @@
+{
+  "name": "fart-button",
+  "version": "0.0.1",
+  "description": "<Description>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "big-red-button": "0.0.9",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "request": "^2.45.0",
+    "terminal-tab": "0.0.4"
+  }
+}
