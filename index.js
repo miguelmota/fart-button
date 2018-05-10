@@ -1,3 +1,4 @@
+var path = require('path')
 var fs = require('fs');
 var exec = require('child_process').exec;
 var os = require('os');
@@ -9,13 +10,14 @@ var Q = require('q');
 
 function start() {
   var mediaFiles = [];
-  var mediaDir = 'media/';
+  var mediaDir = '/media/';
+  var p = path.resolve(path.join(__dirname, mediaDir))
 
-  fs.readdir([__dirname, '/', mediaDir].join(''), function(err, files) {
+  fs.readdir(p, function(err, files) {
     mediaFiles = _.map(_.filter(files, function(f, i) {
       return /mp3/.test(f);
     }), function(f, i) {
-      return [mediaDir, f].join('');
+      return [p, f].join('/');
     });
   });
 
