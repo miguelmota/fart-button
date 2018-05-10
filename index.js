@@ -1,1 +1,1 @@
-require('./button').start()
+require('./button').run()

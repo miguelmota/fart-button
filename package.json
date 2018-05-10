@@ -1,7 +1,7 @@
 {
   "name": "fart-button",
   "version": "0.0.4",
-  "description": "",
+  "description": "Plays a fart sound when the big red button is pressed",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -35,6 +35,9 @@
   },
   "homepage": "https://github.com/miguelmota/fart-button",
   "devDependencies": {},
+  "dependencies": {
+    "big-red-button": "0.0.9"
+  },
   "engines": {
     "node": ">=6.11"
   },
